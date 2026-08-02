@@ -2184,6 +2184,308 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Relay:SANYOU_SRD_Form_A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SANYOU_SRD_Form_A"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Pole Relay SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPST*SANYOU*SRD*Series*Form*A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_A_0_0"
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 2.54) (xy 4.445 3.175) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_A_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_A_1_1"
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2485,6 +2787,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 104.14) (xy 231.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0568c4-f3ed-4d73-9ac5-8763978cee1f")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a54639b-c8d2-4e39-85ec-4b2283024937")
+	)
+	(wire
+		(pts
 			(xy 181.61 83.82) (xy 167.64 83.82)
 		)
 		(stroke
@@ -2495,6 +2817,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 121.92) (xy 231.14 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192bbaba-598b-4624-b335-42670d5fcbb6")
+	)
+	(wire
+		(pts
 			(xy 54.61 31.75) (xy 71.12 31.75)
 		)
 		(stroke
@@ -2502,6 +2834,16 @@
 			(type default)
 		)
 		(uuid "192df100-3be6-40b3-8e61-126150685731")
+	)
+	(wire
+		(pts
+			(xy 226.06 88.9) (xy 231.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b617651-07ac-443f-9ca4-18d5a0f9fadf")
 	)
 	(wire
 		(pts
@@ -2555,6 +2897,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ea4b82-c866-436c-8ac9-9c6722e51319")
+	)
+	(wire
+		(pts
 			(xy 95.25 31.75) (xy 99.06 31.75)
 		)
 		(stroke
@@ -2585,6 +2937,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84269875-3cde-464b-af1f-de09d6d0fe65")
+	)
+	(wire
+		(pts
 			(xy 104.14 96.52) (xy 105.41 96.52)
 		)
 		(stroke
@@ -2592,6 +2954,26 @@
 			(type default)
 		)
 		(uuid "862612e6-2557-4aa8-a562-574e9a1d147e")
+	)
+	(wire
+		(pts
+			(xy 231.14 137.16) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bba430-aa64-4a3c-90dd-a2ed71151467")
+	)
+	(wire
+		(pts
+			(xy 226.06 121.92) (xy 231.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbc04f2-c4e9-43cb-b4fe-712e46415d1e")
 	)
 	(wire
 		(pts
@@ -2625,6 +3007,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 137.16) (xy 231.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99631e3e-5185-4de1-91f1-bb1aba1e6d33")
+	)
+	(wire
+		(pts
+			(xy 208.28 121.92) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fa1b9c-cb9b-4695-84ea-7b4106874e8f")
+	)
+	(wire
+		(pts
 			(xy 71.12 39.37) (xy 54.61 39.37)
 		)
 		(stroke
@@ -2645,6 +3047,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 104.14) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b499eaa4-1207-4acc-8172-23e48382d269")
+	)
+	(wire
+		(pts
 			(xy 104.14 115.57) (xy 137.16 115.57)
 		)
 		(stroke
@@ -2662,6 +3074,16 @@
 			(type default)
 		)
 		(uuid "bdb49b14-2ebe-4131-b927-d0af0048076a")
+	)
+	(wire
+		(pts
+			(xy 231.14 88.9) (xy 231.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf594d1d-2fae-4a48-abd3-ac94a8539b88")
 	)
 	(wire
 		(pts
@@ -2876,6 +3298,76 @@
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 236.22 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "153ba346-73fd-4b8e-8327-5d5cb04652cc")
+		(property "Reference" "J7"
+			(at 238.76 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 238.76 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84811abc-a35e-4e5a-bab4-60a447b3a992")
+		)
+		(pin "1"
+			(uuid "fc27fd16-a089-4860-b63e-1cee68376c7e")
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3936,6 +4428,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c2ea3ec-71a6-46a5-8fbf-f46aceafa629")
+		(property "Reference" "#PWR014"
+			(at 215.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be8b8e5a-b15c-437b-a459-9ffc9f21a6c8")
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 35.56 0)
 		(unit 1)
@@ -4071,6 +4629,152 @@
 			(project ""
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_A")
+		(at 220.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bf06eb8-47e5-4bcf-9a86-d4a614094211")
+		(property "Reference" "K1"
+			(at 218.694 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_A"
+			(at 210.82 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7233b302-1a32-4b83-bc08-07b7a4c04d98")
+		)
+		(pin "5"
+			(uuid "030f4a51-e9ea-433c-aa93-63d35015d6b8")
+		)
+		(pin "3"
+			(uuid "b0f8bfb8-df00-4966-af3f-a3a4642800e8")
+		)
+		(pin "1"
+			(uuid "bf2b6218-7ba3-4ebb-8a22-eb9f00a1ba89")
+		)
+		(instances
+			(project ""
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 236.22 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a680f136-e50c-4d62-ac23-194233c3b225")
+		(property "Reference" "J6"
+			(at 238.76 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 238.76 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5bd59d6-b9c6-45f3-beef-335f3009514b")
+		)
+		(pin "1"
+			(uuid "55223103-96a3-458e-bd0b-ce457907aee9")
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4273,6 +4977,72 @@
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c467dfd5-545a-43c2-a38f-c9c7b795ff50")
+		(property "Reference" "#PWR013"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0becc3c8-6764-43cf-9446-f3200aec8692")
+		)
+		(instances
+			(project ""
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4538,6 +5308,82 @@
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_A")
+		(at 220.98 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f341e8ce-4c5e-47c2-bd98-d282d4270ce5")
+		(property "Reference" "K2"
+			(at 218.694 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_A"
+			(at 210.82 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 220.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
+			(at 220.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5db1ffc3-88b9-4bc7-98ae-bf6e78dc7877")
+		)
+		(pin "5"
+			(uuid "28926ee3-ca79-49f3-9dad-6308c0551a41")
+		)
+		(pin "3"
+			(uuid "59d2c550-5067-4ade-9c16-16c5515894ab")
+		)
+		(pin "1"
+			(uuid "caa4d525-e6f5-43c9-aaa5-e9a3e22c498d")
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "K2")
 					(unit 1)
 				)
 			)

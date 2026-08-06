@@ -637,6 +637,10 @@
     [
       "1e49f6cd-b5ca-46ba-8432-16205c4ff970",
       "Pump control"
+    ],
+    [
+      "f55e4a84-be84-408f-9efd-18451ab0cbe4",
+      "light_sensor"
     ]
   ],
   "text_variables": {}

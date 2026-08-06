@@ -2728,6 +2728,48 @@
 		)
 	)
 	(sheet
+		(at 91.44 34.29)
+		(size 24.13 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f55e4a84-be84-408f-9efd-18451ab0cbe4")
+		(property "Sheetname" "light_sensor"
+			(at 91.44 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "light_sensor.kicad_sch"
+			(at 91.44 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.34 133.35)
 		(size 27.94 7.62)
 		(exclude_from_sim no)

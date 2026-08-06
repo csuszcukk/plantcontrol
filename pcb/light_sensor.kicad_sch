@@ -1124,6 +1124,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C83988"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9083cf9a-458e-462a-b062-30baf15beb55")
 		)
@@ -1332,7 +1341,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K?"
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C10077"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -1450,7 +1468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 112.522 104.14 90)
 			(effects
 				(font
@@ -1477,7 +1495,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C15401"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -1594,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
 			(at 67.31 109.22 0)
 			(effects
 				(font
@@ -1622,6 +1649,15 @@
 			)
 		)
 		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
+			(at 67.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C90087"
 			(at 67.31 109.22 0)
 			(effects
 				(font

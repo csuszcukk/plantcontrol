@@ -922,7 +922,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/100Pcs-AO3400A-SOT-23-5-8A-N-Channel/dp/B0FJ1HTN1Y"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C20917"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -1078,6 +1087,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C3703"
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "139d1120-6f89-412b-9ffa-2b9152d69ecc")
 		)
@@ -1185,7 +1203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 106.172 90)
 			(effects
 				(font
@@ -1212,7 +1230,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/Chanzon-Resistor-Tolerance-Resistors-Certificated/dp/B08R8CC8RG"
+			(at 140.97 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C23179"
 			(at 140.97 107.95 90)
 			(effects
 				(font
@@ -1264,7 +1291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.002 111.76 90)
 			(effects
 				(font
@@ -1291,7 +1318,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C15401"
 			(at 144.78 111.76 0)
 			(effects
 				(font

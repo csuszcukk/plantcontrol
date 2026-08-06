@@ -1496,6 +1496,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C2456"
+			(at 123.19 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37aebe9c-b197-4be8-a361-4634bbf805c6")
 		)
@@ -1586,6 +1595,24 @@
 				(hide yes)
 			)
 		)
+		(property "amazon link" "https://www.amazon.com/100Pcs-2N2222-2N2222A-MPS2222-Triode/dp/B0H6G1CLJM?"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C118536"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdcbfb73-a75d-4118-ac89-bf5c3d6e3ebf")
 		)
@@ -1631,7 +1658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -1659,7 +1686,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/Weasch-SRD-05VDC-SL-C-250VAC-Household-Appliance/dp/B0D2MRY3BT?crid=6RMELHQI7PLL"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C35449"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -1745,6 +1781,15 @@
 			)
 		)
 		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
+			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C3703"
 			(at 160.02 93.98 0)
 			(effects
 				(font
@@ -1926,7 +1971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 124.46 113.538 90)
 			(effects
 				(font
@@ -1946,6 +1991,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "amazon link" "https://www.amazon.com/1500PCS-Resistor-Values-Tolerance-Assorted/dp/B09537D852"
+			(at 124.46 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C100982"
+			(at 124.46 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)

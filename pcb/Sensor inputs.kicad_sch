@@ -1176,6 +1176,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C8270"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20958a14-4ac5-4d4f-b85d-22a5910428b0")
 		)
@@ -1457,6 +1466,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C3703"
+			(at 142.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f097554-ff3c-4b65-b9bc-5a1dcfd9e4a8")
 		)
@@ -1565,7 +1583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -1593,6 +1611,15 @@
 			)
 		)
 		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C90087"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -1810,6 +1837,15 @@
 			)
 		)
 		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
+			(at 142.24 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C8270"
 			(at 142.24 154.94 0)
 			(effects
 				(font

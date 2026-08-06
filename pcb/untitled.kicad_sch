@@ -792,7 +792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-7_1x07_P5.00mm_Horizontal"
 			(at 132.08 104.14 0)
 			(effects
 				(font
@@ -820,6 +820,15 @@
 			)
 		)
 		(property "amazon link" "https://www.amazon.com/LuoQiuFa10-7-Pin-5-08mm-Female-Terminal/dp/B093DNFMLK?crid=10T3KHCJJYQ9W&"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C395855"
 			(at 132.08 104.14 0)
 			(effects
 				(font

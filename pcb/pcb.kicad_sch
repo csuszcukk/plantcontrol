@@ -2016,6 +2016,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C216288"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18741215-859c-4998-91b6-97c1ee665565")
 		)
@@ -2095,6 +2104,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C1591"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ddb3f01-dd9a-4e23-95f0-5ee7cf6b3acb")
 		)
@@ -2166,6 +2184,15 @@
 			)
 		)
 		(property "amazon link" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C5736265"
 			(at 129.54 142.24 0)
 			(effects
 				(font
@@ -2775,8 +2802,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 34.29)
-		(size 24.13 8.89)
+		(at 162.56 78.74)
+		(size 20.32 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2791,7 +2818,7 @@
 		)
 		(uuid "f55e4a84-be84-408f-9efd-18451ab0cbe4")
 		(property "Sheetname" "light_and_air_sensor"
-			(at 91.44 33.5784 0)
+			(at 162.56 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2827,7 @@
 			)
 		)
 		(property "Sheetfile" "light_sensor.kicad_sch"
-			(at 91.44 43.7646 0)
+			(at 162.56 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

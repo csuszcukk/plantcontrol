@@ -1402,6 +1402,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C216288"
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "492ec7c8-4bdb-4362-bee8-69b31d28f1c6")
 		)
@@ -1473,6 +1482,15 @@
 			)
 		)
 		(property "amazon link" ""
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C1591"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -1560,6 +1578,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C216288"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9e7e9fc-2b72-4148-ab83-9cd88f250543")
 		)
@@ -1639,6 +1666,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlc part #" "C1591"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e48a82b2-6e57-4b98-9019-e87eae9c10ab")
 		)
@@ -1707,7 +1743,16 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
+		(property "amazon link" "https://www.amazon.com/Tegg-AMS1117-3-3V-Voltage-Regulator-AMS1117/dp/B07X75XXYL?"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C6186"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -1788,6 +1833,15 @@
 			)
 		)
 		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C3703"
 			(at 99.06 99.06 0)
 			(effects
 				(font

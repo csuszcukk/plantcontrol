@@ -1781,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 90.678 90)
 			(effects
 				(font
@@ -1801,6 +1801,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C177348"
+			(at 73.66 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 89.662 90)
 			(effects
 				(font
@@ -1869,6 +1878,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C177348"
+			(at 73.66 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,6 +2529,15 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc part #" "C456012"
 			(at 54.61 83.82 0)
 			(effects
 				(font

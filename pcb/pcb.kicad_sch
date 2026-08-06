@@ -1808,6 +1808,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 142.24) (xy 114.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6be79e-93b1-4616-9cd5-4f8f69c00682")
+	)
+	(wire
+		(pts
 			(xy 144.78 149.86) (xy 168.91 149.86)
 		)
 		(stroke
@@ -1825,6 +1835,16 @@
 			(type default)
 		)
 		(uuid "d5d746c5-a222-4308-9c78-b770d4c76efb")
+	)
+	(wire
+		(pts
+			(xy 81.28 144.78) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f4bff7-8cf7-49d4-9585-a4256d45510c")
 	)
 	(wire
 		(pts
@@ -1960,7 +1980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 137.16 103.1748 0)
 			(effects
 				(font
@@ -1979,6 +1999,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "amazon link" ""
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -2030,7 +2059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.16 90.4748 0)
 			(effects
 				(font
@@ -2049,6 +2078,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "amazon link" ""
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -2120,6 +2158,15 @@
 		)
 		(property "Description" "RF Module, ESP32-C6 SoC, Wi-Fi 802.11b/g/n/ax, Bluetooth, BLE, Zigbee, Thread, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "amazon link" ""
+			(at 129.54 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2641,7 @@
 		)
 	)
 	(sheet
-		(at 19.05 19.05)
+		(at 77.47 78.74)
 		(size 20.32 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2610,7 +2657,7 @@
 		)
 		(uuid "a9671bca-726d-4ae7-8d5c-45bb39bedd56")
 		(property "Sheetname" "power"
-			(at 19.05 18.3384 0)
+			(at 77.47 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2666,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 19.05 25.9846 0)
+			(at 77.47 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2790,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f55e4a84-be84-408f-9efd-18451ab0cbe4")
-		(property "Sheetname" "light_sensor"
+		(property "Sheetname" "light_and_air_sensor"
 			(at 91.44 33.5784 0)
 			(effects
 				(font
@@ -2771,7 +2818,7 @@
 	)
 	(sheet
 		(at 53.34 133.35)
-		(size 27.94 7.62)
+		(size 27.94 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2795,7 +2842,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensor inputs.kicad_sch"
-			(at 53.34 141.5546 0)
+			(at 53.34 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,6 +2873,26 @@
 		(pin "water level" input
 			(at 81.28 139.7 0)
 			(uuid "c8d38892-9bbd-4998-a315-b5222583a9fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "soil_temp" input
+			(at 81.28 142.24 0)
+			(uuid "1f0b03e6-8625-4aba-ba2e-cc2b183be9a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "air sensor" input
+			(at 81.28 144.78 0)
+			(uuid "73640e7e-678f-47b8-ae17-8c7ed0708f6f")
 			(effects
 				(font
 					(size 1.27 1.27)

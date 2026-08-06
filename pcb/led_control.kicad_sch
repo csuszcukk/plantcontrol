@@ -922,6 +922,15 @@
 				(hide yes)
 			)
 		)
+		(property "amazon link" ""
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f02e64bd-8513-4b65-9ce6-5291a712d847")
 		)
@@ -1033,7 +1042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 156.21 93.98 0)
 			(effects
 				(font
@@ -1053,6 +1062,15 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
+			(at 156.21 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,6 +1212,15 @@
 				(hide yes)
 			)
 		)
+		(property "amazon link" ""
+			(at 140.97 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea4d5e00-f5e5-4e5b-a529-ba49f677d0b0")
 		)
@@ -1256,6 +1283,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "amazon link" ""
 			(at 144.78 111.76 0)
 			(effects
 				(font

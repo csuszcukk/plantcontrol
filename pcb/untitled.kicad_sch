@@ -819,6 +819,15 @@
 				(hide yes)
 			)
 		)
+		(property "amazon link" "https://www.amazon.com/LuoQiuFa10-7-Pin-5-08mm-Female-Terminal/dp/B093DNFMLK?crid=10T3KHCJJYQ9W&"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab0c763a-70b3-4ccf-bab3-41b5c8940255")
 		)

@@ -595,7 +595,7 @@
           "group_by": false,
           "label": "jlc part #",
           "name": "jlc part #",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -603,7 +603,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

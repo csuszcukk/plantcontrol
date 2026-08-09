@@ -2156,7 +2156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
+		(property "Footprint" "Library:ESP32-C6-MINI-1psa"
 			(at 147.32 167.64 0)
 			(effects
 				(font

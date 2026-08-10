@@ -1088,7 +1088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Sensor:ASAIR_AM2302_P2.54mm_Vertical"
+		(property "Footprint" "Sensor:ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown"
 			(at 104.14 134.62 0)
 			(effects
 				(font

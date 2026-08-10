@@ -4411,6 +4411,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "42e3d08e-11e8-4cb5-a67b-41587d030a58")
 			(effects
 				(font
@@ -7076,6 +7077,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fa9a8d68-d83b-4d12-a344-682d1eb56804")
 			(effects
 				(font
@@ -19148,6 +19150,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0675f2c1-cc47-4257-bdb2-1a366c120b26")
+	)
+	(gr_text "Designed in Budapest"
+		(at 86.2 94.6 0)
+		(layer "F.SilkS")
+		(uuid "5b4879bf-5784-475e-8367-ca3700548a39")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "V cut"
 		(at 96.4 51.8 0)

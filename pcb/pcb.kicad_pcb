@@ -20386,6 +20386,22 @@
 		(uuid "ba70f5a7-e27b-450b-92ad-50907b8bb562")
 	)
 	(segment
+		(start 83.631932 98.7075)
+		(end 83.539432 98.8)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c32386a4-9956-4d3d-b975-fe21abec543c")
+	)
+	(segment
+		(start 83.631932 97.429)
+		(end 83.631932 98.7075)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c8e22c81-5890-462d-b388-0f73cb2728a5")
+	)
+	(segment
 		(start 80.539432 94.2)
 		(end 80.539432 94.934)
 		(width 0.8)

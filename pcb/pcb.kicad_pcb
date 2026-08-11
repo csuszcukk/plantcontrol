@@ -100,7 +100,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 64.6 111)
+		(grid_origin 152.739432 62.2)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -19114,7 +19114,17 @@
 		(uuid "f899e7e4-73f3-4b48-a95b-fb16eccd066a")
 	)
 	(gr_line
-		(start 152.9 62.2)
+		(start 120.2 62.2)
+		(end 120.2 41)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "62873785-882e-4844-91f3-6f6fb1ff1604")
+	)
+	(gr_line
+		(start 152.839432 62.2)
 		(end 64.4 62.2)
 		(stroke
 			(width 0.1)
@@ -19135,7 +19145,7 @@
 		(uuid "d7d35aee-242a-4c21-9fba-b3e073ff409c")
 	)
 	(gr_rect
-		(start 64.47 27.2)
+		(start 64.47 41)
 		(end 152.739432 129.4)
 		(stroke
 			(width 0.05)
@@ -19153,6 +19163,18 @@
 			(font
 				(size 2 2)
 				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V cut"
+		(at 120.2 52 0)
+		(layer "Cmts.User")
+		(uuid "14ee61d5-83a8-4222-874a-0f8c2e7bb5ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)

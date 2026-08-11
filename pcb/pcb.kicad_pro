@@ -531,7 +531,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../cad models/pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -718,6 +718,10 @@
     [
       "f55e4a84-be84-408f-9efd-18451ab0cbe4",
       "light_and_air_sensor"
+    ],
+    [
+      "6ba59ddd-18a4-4e0c-ad10-73ba465496e1",
+      "control"
     ]
   ],
   "text_variables": {}

@@ -1318,7 +1318,7 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
+		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP? https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -1327,7 +1327,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc part #" "C15401"
+		(property "jlc part #" "C2906982"
 			(at 144.78 111.76 0)
 			(effects
 				(font

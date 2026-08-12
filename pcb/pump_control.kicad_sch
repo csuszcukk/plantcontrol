@@ -1595,15 +1595,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" "https://www.amazon.com/100Pcs-2N2222-2N2222A-MPS2222-Triode/dp/B0H6G1CLJM?"
-			(at 137.16 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C118536"
 			(at 137.16 111.76 0)
 			(effects
@@ -1678,15 +1669,6 @@
 			)
 		)
 		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact"
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/Weasch-SRD-05VDC-SL-C-250VAC-Household-Appliance/dp/B0D2MRY3BT?crid=6RMELHQI7PLL"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -1772,15 +1754,6 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
 			(at 160.02 93.98 0)
 			(effects
 				(font
@@ -1991,15 +1964,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/1500PCS-Resistor-Values-Tolerance-Assorted/dp/B09537D852"
-			(at 124.46 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -642,15 +642,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
-			(at 143.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C37208"
 			(at 143.51 100.33 0)
 			(effects

@@ -1167,15 +1167,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C8270"
 			(at 143.51 76.2 0)
 			(effects
@@ -1457,15 +1448,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
-			(at 142.24 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C3703"
 			(at 142.24 129.54 0)
 			(effects
@@ -1602,15 +1584,6 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -1828,15 +1801,6 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
 			(at 142.24 154.94 0)
 			(effects
 				(font

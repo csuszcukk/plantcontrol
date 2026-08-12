@@ -603,7 +603,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc part #" "~"
+		(property "jlc part #" "C37208"
 			(at 119.38 102.87 0)
 			(effects
 				(font
@@ -739,15 +739,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 120.65 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP? https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
-			(at 120.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,15 +950,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 120.65 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP? https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
-			(at 120.65 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1808,7 +1808,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc part #" "C177348"
+		(property "jlc part #" "C2907044"
 			(at 73.66 88.9 90)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc part #" "C177348"
+		(property "jlc part #" "C2907044"
 			(at 73.66 91.44 90)
 			(effects
 				(font
@@ -1956,15 +1956,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 135.89 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" ""
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -2052,15 +2043,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C1591"
 			(at 119.38 100.33 0)
 			(effects
@@ -2132,15 +2114,6 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 180.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" ""
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -2362,15 +2335,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C1591"
 			(at 163.83 100.33 0)
 			(effects
@@ -2440,15 +2404,6 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 152.4 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/Tegg-AMS1117-3-3V-Voltage-Regulator-AMS1117/dp/B07X75XXYL?"
 			(at 152.4 96.52 0)
 			(effects
 				(font

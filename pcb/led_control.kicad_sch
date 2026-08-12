@@ -922,15 +922,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" "https://www.amazon.com/100Pcs-AO3400A-SOT-23-5-8A-N-Channel/dp/B0FJ1HTN1Y"
-			(at 153.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C20917"
 			(at 153.67 107.95 0)
 			(effects
@@ -1071,15 +1062,6 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 156.21 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/QSYZAIL-Screw-Terminal-Circuit-Connector/dp/B0G4MYNHBC/132-4224079-3597343"
-			(at 156.21 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,15 +1212,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" "https://www.amazon.com/Chanzon-Resistor-Tolerance-Resistors-Certificated/dp/B08R8CC8RG"
-			(at 140.97 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C23179"
 			(at 140.97 107.95 90)
 			(effects
@@ -1310,15 +1283,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" "https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP? https://www.amazon.com/100PCS-0603-SMD-chip-resistors/dp/B0B3SY4DCP?"
 			(at 144.78 111.76 0)
 			(effects
 				(font

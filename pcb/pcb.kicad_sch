@@ -2077,15 +2077,6 @@
 				(hide yes)
 			)
 		)
-		(property "amazon link" ""
-			(at 133.35 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc part #" "C216288"
 			(at 133.35 109.22 0)
 			(effects
@@ -2157,15 +2148,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" ""
 			(at 133.35 96.52 0)
 			(effects
 				(font
@@ -2246,15 +2228,6 @@
 		)
 		(property "Description" "RF Module, ESP32-C6 SoC, Wi-Fi 802.11b/g/n/ax, Bluetooth, BLE, Zigbee, Thread, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "amazon link" ""
-			(at 129.54 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

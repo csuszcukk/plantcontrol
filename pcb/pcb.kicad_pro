@@ -577,7 +577,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "BOM.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -675,6 +675,24 @@
           "label": "jlc part #",
           "name": "jlc part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -682,7 +700,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Value"
+      "sort_field": "LCSC Part"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -733,7 +751,7 @@
         "uuid": "2955ee96-3683-4cf6-bfa3-83b5e4980920"
       }
     ],
-    "used_designators": "J13-14",
+    "used_designators": "USB1,#PWR37",
     "variants": []
   },
   "sheets": [

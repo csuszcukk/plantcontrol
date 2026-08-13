@@ -677,7 +677,7 @@
 				)
 			)
 		)
-		(property "jlc part #" ""
+		(property "jlc part #" "C37208"
 			(at 119.38 102.87 0)
 			(hide yes)
 			(show_name no)

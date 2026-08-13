@@ -730,16 +730,16 @@
       {
         "filename": "pcb.kicad_sch",
         "name": "pcb",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2955ee96-3683-4cf6-bfa3-83b5e4980920"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J13-14",
     "variants": []
   },
   "sheets": [
     [
       "2955ee96-3683-4cf6-bfa3-83b5e4980920",
-      "Root"
+      "pcb"
     ],
     [
       "a9671bca-726d-4ae7-8d5c-45bb39bedd56",
@@ -772,6 +772,10 @@
     [
       "6ba59ddd-18a4-4e0c-ad10-73ba465496e1",
       "control"
+    ],
+    [
+      "987d3c68-4f18-439b-bf60-3e9251430e23",
+      "usbc modul"
     ]
   ],
   "text_variables": {},

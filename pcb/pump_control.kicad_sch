@@ -1665,7 +1665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ec6c2bb-ad42-4191-84dc-48cf86fb472c")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 142.24 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1779,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920/1e49f6cd-b5ca-46ba-8432-16205c4ff970"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a680f136-e50c-4d62-ac23-194233c3b225")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 162.56 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1993,7 +1993,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920/1e49f6cd-b5ca-46ba-8432-16205c4ff970"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2011,7 +2011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "accfe835-737f-44ed-9864-b6b0dbe4b204")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR021"
 			(at 139.7 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2071,7 +2071,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920/1e49f6cd-b5ca-46ba-8432-16205c4ff970"
-					(reference "#PWR028")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2089,7 +2089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c467dfd5-545a-43c2-a38f-c9c7b795ff50")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 139.7 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2149,7 +2149,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920/1e49f6cd-b5ca-46ba-8432-16205c4ff970"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2167,7 +2167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf0799c-8620-4649-836e-8a70f39db85a")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 124.46 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2251,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920/1e49f6cd-b5ca-46ba-8432-16205c4ff970"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)

@@ -1695,22 +1695,22 @@
 		(uuid "e58dd2e7-da24-41bf-9438-97b36960e2a1")
 	)
 	(junction
-		(at 137.16 96.52)
+		(at 137.16 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "528a0481-b30f-48f7-9c67-d281799a6e48")
-	)
-	(junction
-		(at 129.54 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "997c7357-bdb7-451a-b839-7c833b00b2c8")
+		(uuid "5c9cd766-217d-40e0-9816-5193262470f3")
 	)
 	(junction
 		(at 129.54 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e4ced27-e018-4766-ac5c-bb2e709aae69")
+		(uuid "83d8fec9-d828-49d7-bd09-ad6db01562bc")
+	)
+	(junction
+		(at 129.54 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f203a0-3a94-4526-ad34-d63491f7aa13")
 	)
 	(wire
 		(pts
@@ -1751,16 +1751,6 @@
 			(type default)
 		)
 		(uuid "1b2d02a7-78d7-4e27-bf04-eab14d99a63c")
-	)
-	(wire
-		(pts
-			(xy 129.54 109.22) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc4c903-6dd8-4d57-98ef-914b1861be43")
 	)
 	(wire
 		(pts
@@ -1824,6 +1814,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 109.22) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f38a775-448d-4c9e-b2e6-644f2f12072e")
+	)
+	(wire
+		(pts
 			(xy 166.37 116.84) (xy 166.37 124.46)
 		)
 		(stroke
@@ -1874,6 +1874,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 95.25) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9913e4-e0b4-4dce-a84b-ba566fcadcd9")
+	)
+	(wire
+		(pts
 			(xy 144.78 152.4) (xy 168.91 152.4)
 		)
 		(stroke
@@ -1884,13 +1894,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 129.54 109.22)
+			(xy 137.16 95.25) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91974ed6-39d4-49b3-9aac-0efbecf900f0")
+		(uuid "95c44d54-deb0-4a8b-b658-d95b87328244")
 	)
 	(wire
 		(pts
@@ -1911,16 +1921,6 @@
 			(type default)
 		)
 		(uuid "98cbffb1-c84e-4973-896a-7e49a7eaac96")
-	)
-	(wire
-		(pts
-			(xy 137.16 96.52) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69df5d7-c2db-449f-9491-b67365f6ddbf")
 	)
 	(polyline
 		(pts
@@ -2054,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 129.54 96.52)
+			(xy 129.54 88.9) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 96.52)
+			(xy 137.16 88.9) (xy 137.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e57be8b-29b2-4aa9-bcd7-116e2f2a6c6c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2174,215 +2174,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 133.35 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3053b44f-cf46-4620-802f-36dc56cf611e")
-		(property "Reference" "C6"
-			(at 131.1909 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 133.7309 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 137.16 108.2548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "amazon link" ""
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc part #" "C216288"
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "18741215-859c-4998-91b6-97c1ee665565")
-		)
-		(pin "1"
-			(uuid "221e0aca-81f9-4724-bfdb-56feb79ba047")
-		)
-		(instances
-			(project "pcb"
-				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 133.35 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "313cf1c1-dec3-4eaa-bd6c-a700e2a68b63")
-		(property "Reference" "C5"
-			(at 132.0799 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 134.6199 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 137.16 95.5548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 133.35 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "amazon link" ""
-			(at 133.35 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc part #" "C1591"
-			(at 133.35 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4ddb3f01-dd9a-4e23-95f0-5ee7cf6b3acb")
-		)
-		(pin "1"
-			(uuid "f908b8cb-ef8d-48a1-afae-b248ec9b1f79")
-		)
-		(instances
-			(project "pcb"
-				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(reference "C5")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2400,7 +2192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4884d138-067d-476a-acec-4da34db0200b")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 131.6833 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +2431,215 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(reference "U2")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff1fa25-ef66-402e-a920-6edec0d46b4f")
+		(property "Reference" "C2"
+			(at 132.0799 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 134.6199 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.16 108.2548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "amazon link" ""
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc part #" "C1591"
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f62eb3f-ffd9-445d-8c5f-e4914d38be51")
+		)
+		(pin "1"
+			(uuid "86868c80-6398-42c1-a7de-6d5a460d0242")
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 133.35 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaec2cd7-6ab8-49ec-a021-2d529c650133")
+		(property "Reference" "C1"
+			(at 131.1909 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 133.7309 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 137.16 94.2848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "amazon link" ""
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc part #" "C216288"
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f75f7e3-4f4d-4f41-8e5d-f375bfd3c878")
+		)
+		(pin "1"
+			(uuid "1cc09726-c730-415d-bc3c-49422bf3b9e1")
+		)
+		(instances
+			(project "pcb"
+				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd4603e6-df46-4646-9a13-335c80656dcb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2717,7 +2717,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2735,7 +2735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f42a042a-001d-4702-bd95-ed1997b547c0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -2795,7 +2795,7 @@
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

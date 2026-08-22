@@ -1784,6 +1784,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 69.85) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caf4968-f0e5-418d-9d99-e354a1ecc235")
+	)
+	(wire
+		(pts
 			(xy 166.37 116.84) (xy 190.5 116.84)
 		)
 		(stroke
@@ -1831,16 +1841,6 @@
 			(type default)
 		)
 		(uuid "4fe608fc-634e-4ceb-bf3f-9d4b50ca152d")
-	)
-	(polyline
-		(pts
-			(xy 85.09 78.74) (xy 85.09 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb7af24-3618-43de-a91d-70df72773861")
 	)
 	(wire
 		(pts
@@ -1891,6 +1891,16 @@
 			(type default)
 		)
 		(uuid "7ac36d4c-fc56-46ed-9117-e54ffd3ca2d6")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c84ff9-a6fa-4b4b-9761-1a7a4904866a")
 	)
 	(wire
 		(pts
@@ -1982,16 +1992,6 @@
 		)
 		(uuid "cb6be79e-93b1-4616-9cd5-4f8f69c00682")
 	)
-	(polyline
-		(pts
-			(xy 85.09 69.85) (xy 97.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3440837-830b-45aa-a7ec-6a9de5ad9d04")
-	)
 	(wire
 		(pts
 			(xy 144.78 149.86) (xy 168.91 149.86)
@@ -2011,6 +2011,16 @@
 			(type default)
 		)
 		(uuid "d5d746c5-a222-4308-9c78-b770d4c76efb")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7789149-f0d4-46dd-9372-16fcafd838b5")
 	)
 	(wire
 		(pts
@@ -3083,6 +3093,16 @@
 				(justify left top)
 			)
 		)
+		(pin "V input" input
+			(at 97.79 69.85 180)
+			(uuid "4b9d889e-5134-4a2f-ad00-ebc09fb17913")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
@@ -3127,6 +3147,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V input" input
+			(at 73.66 81.28 180)
+			(uuid "90a15f6c-55fe-4286-940f-19da5824363a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

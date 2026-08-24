@@ -1762,16 +1762,6 @@
 		)
 		(uuid "1dd0fa0d-2662-43c8-8d76-ff3ece8d0e2e")
 	)
-	(polyline
-		(pts
-			(xy 50.8 111.76) (xy 54.61 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f525994-7946-432d-893c-9b16319b92af")
-	)
 	(wire
 		(pts
 			(xy 144.78 132.08) (xy 166.37 132.08)
@@ -1801,16 +1791,6 @@
 			(type default)
 		)
 		(uuid "319f9917-fbd6-4fbb-a348-fe35777f3587")
-	)
-	(polyline
-		(pts
-			(xy 50.8 139.7) (xy 50.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47efbaba-bbf8-474a-a6be-d598bbfb9bc2")
 	)
 	(wire
 		(pts
@@ -1932,16 +1912,6 @@
 		)
 		(uuid "98cbffb1-c84e-4973-896a-7e49a7eaac96")
 	)
-	(polyline
-		(pts
-			(xy 53.34 139.7) (xy 50.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa953806-e064-4828-8f5c-a8f64fce65a2")
-	)
 	(wire
 		(pts
 			(xy 81.28 134.62) (xy 114.3 134.62)
@@ -2044,7 +2014,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.98 82.55) (xy 128.27 82.55)
+			(xy 93.98 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2054,7 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 82.55) (xy 128.27 87.63)
+			(xy 129.54 82.55) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2627,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 88.9 90)
+		(at 129.54 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2665,10 +2635,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd4603e6-df46-4646-9a13-335c80656dcb")
 		(property "Reference" "#PWR01"
-			(at 133.35 88.9 0)
+			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,13 +2648,14 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 124.46 88.9 0)
+			(at 122.682 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3259,52 +3229,6 @@
 			(project "pcb"
 				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 54.61 107.95)
-		(size 20.32 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f55e4a84-be84-408f-9efd-18451ab0cbe4")
-		(property "Sheetname" "light_and_air_sensor"
-			(at 54.61 107.2384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "light_sensor.kicad_sch"
-			(at 54.61 114.8846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pcb"
-				(path "/2955ee96-3683-4cf6-bfa3-83b5e4980920"
-					(page "8")
 				)
 			)
 		)

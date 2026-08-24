@@ -1296,8 +1296,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 147.32 127 270)
+		(lib_id "power:GND")
+		(at 147.32 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1306,9 +1306,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b2c5276-2aa3-4e4b-844c-eec50a734b67")
+		(uuid "33182db6-d5a2-4d7f-b5d1-2c43611b4e3f")
 		(property "Reference" "#PWR08"
-			(at 143.51 127 0)
+			(at 153.67 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1318,7 +1318,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "GND"
 			(at 151.13 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1326,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1351,7 +1351,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
@@ -1363,7 +1363,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c916709b-26c1-4dfd-b4d3-fd106fb210f5")
+			(uuid "fafae83e-a796-4feb-b0b3-ea29f8698dbc")
 		)
 		(instances
 			(project "pcb"

@@ -37,3 +37,36 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# === MicroPython Specific ===
+# Compiled bytecode & board build files
+*.mpy
+/build/
+/dist/
+
+# MicroPython tools & IDE setup
+.vscode/mpy-config.json
+.rshellrc
+.mpremote/
+
+# Thonny IDE local settings
+.thonny/
+.thonny_settings.json
+
+# Local environment & secrets (Wi-Fi credentials, API keys)
+config.py
+secrets.py
+env.py
+
+# === Python General & Virtual Environments ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# === Hardware / Toolchain (esp-idf, C-modules) ===
+.sconf_temp/
+.sconsign.dblite

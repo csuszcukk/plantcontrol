@@ -1844,7 +1844,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-3, 3 pins, pitch 5mm, size 15x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-3 pitch 5mm size 15x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J4"
-			(at 5 -6.32 90)
+			(at 5 -3.65 90)
 			(layer "F.SilkS")
 			(uuid "ae8a1c80-d938-4ff5-a088-591286f96b66")
 			(effects
@@ -1857,6 +1857,7 @@
 		(property "Value" "Screw_Terminal_01x03"
 			(at 5 5.72 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0bfaa510-b938-44ca-bb65-a9ebb6a905f1")
 			(effects
 				(font
@@ -4594,7 +4595,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J3"
-			(at 2.5 -6.32 90)
+			(at 2.5 -0.1725 90)
 			(layer "F.SilkS")
 			(uuid "8c4c562e-3fa0-464a-9677-6e68ee8783df")
 			(effects
@@ -4607,6 +4608,7 @@
 		(property "Value" "Screw_Terminal_01x02"
 			(at 18.349568 -13.528432 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "61d5ba3d-5e80-4ff3-89c3-da4ece3a037f")
 			(effects
 				(font
@@ -4989,6 +4991,7 @@
 		(property "Value" "AO3400A"
 			(at 0.1375 5.1 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "beba8097-cf0c-4fb2-94d7-af10d6b61482")
 			(effects
 				(font
@@ -7495,7 +7498,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-7, 7 pins, pitch 5mm, size 35x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-7 pitch 5mm size 35x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J6"
-			(at 15 -6.32 90)
+			(at 15 -2.3 90)
 			(layer "F.SilkS")
 			(uuid "539a5f10-c1a3-46fe-b387-92f759945b0c")
 			(effects
@@ -8967,7 +8970,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-4, 4 pins, pitch 5mm, size 20x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-4 pitch 5mm size 20x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
-			(at 7.5 -6.32 90)
+			(at 7.5 -3.63 90)
 			(layer "F.SilkS")
 			(uuid "a5f11130-b618-486c-a072-f0af2d7ae737")
 			(effects
@@ -10327,7 +10330,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J9"
-			(at 2.5 -6.32 90)
+			(at 2.411 -3.86 90)
 			(layer "F.SilkS")
 			(uuid "0cb41c2f-29e6-442f-a8ca-ea73007deafe")
 			(effects
@@ -10340,6 +10343,7 @@
 		(property "Value" "Screw_Terminal_01x02"
 			(at 2.5 5.72 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9d1c63b2-49ce-4550-a2ed-0815771ad865")
 			(effects
 				(font
@@ -10880,7 +10884,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J7"
-			(at 2.5 -6.32 90)
+			(at 2.65 -3.9 90)
 			(layer "F.SilkS")
 			(uuid "7cd6860d-9d75-43bf-8722-70c70d3621e7")
 			(effects
@@ -10893,6 +10897,7 @@
 		(property "Value" "Screw_Terminal_01x02"
 			(at 2.5 5.72 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "533fb759-e463-43ba-a92a-e7b9d6e17121")
 			(effects
 				(font
@@ -18580,6 +18585,246 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Data"
+		(at 77.739432 67.7 90)
+		(layer "F.SilkS")
+		(uuid "8453d7cb-a6cc-4361-bae1-57255c46e11b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 77.739432 72.95 90)
+		(layer "F.SilkS")
+		(uuid "8c3e51d3-c4cf-4835-a27b-0634ffa0a55e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Data"
+		(at 77.739432 83.95 90)
+		(layer "F.SilkS")
+		(uuid "5f22c86d-c3f5-4f74-bb20-d2e95b59309b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Vdd"
+		(at 77.739432 88.95 90)
+		(layer "F.SilkS")
+		(uuid "3b7da478-fa95-4030-af25-68d82e58262f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LED"
+		(at 77.739432 94.95 90)
+		(layer "F.SilkS")
+		(uuid "75f89f1d-fc97-4777-b522-b55bd24724ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 77.739432 100.7 90)
+		(layer "F.SilkS")
+		(uuid "f8d73d02-dbd7-4a0f-af78-b6389e13cc5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Pump"
+		(at 77.739432 113.7 90)
+		(layer "F.SilkS")
+		(uuid "1c7f1353-c58b-4fc8-b915-a1520ac37bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 77.989432 78.7 90)
+		(layer "F.SilkS")
+		(uuid "84f83c40-3049-433b-8824-9bf9ed902296")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 77.989432 106.7 90)
+		(layer "F.SilkS")
+		(uuid "18212475-247a-4731-ade5-8f4fd651f199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Vdd"
+		(at 141.489432 95.95 90)
+		(layer "F.SilkS")
+		(uuid "877e08b1-919d-469e-90ed-2272c4fe6853")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 141.489432 101.2 90)
+		(layer "F.SilkS")
+		(uuid "f0fe7751-90bd-4d31-9451-484fb92545c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Vdd"
+		(at 141.739432 74.95 90)
+		(layer "F.SilkS")
+		(uuid "2b0f028f-c46a-4628-8870-e4df7125211a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "scl"
+		(at 141.739432 105.2 90)
+		(layer "F.SilkS")
+		(uuid "53d29de0-fddf-4f67-b1c7-81049ca8a25d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "sda"
+		(at 141.739432 110.7 90)
+		(layer "F.SilkS")
+		(uuid "a156b3aa-0e9e-4a68-a4b3-ff0156b52a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "dc"
+		(at 141.739432 114.7 90)
+		(layer "F.SilkS")
+		(uuid "d54e7d1b-1f2d-4577-aa3e-ac81c2df7417")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "cs\n"
+		(at 141.739432 119.95 90)
+		(layer "F.SilkS")
+		(uuid "cc5b7306-bc6e-4a6b-8758-752d782fa10b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "rst"
+		(at 141.739432 125.45 90)
+		(layer "F.SilkS")
+		(uuid "ddec2c86-d5e2-47a0-97a4-e152ec33dd9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 141.989432 90.7 90)
+		(layer "F.SilkS")
+		(uuid "2c487b5a-ad36-40d3-9d51-6d75207d79be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "L\nData"
+		(at 141.909432 78.7 90)
+		(layer "F.SilkS")
+		(uuid "347810e1-52d5-4ad1-8aa1-001bdb4b09a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "A\nData"
+		(at 141.909432 83.2 90)
+		(layer "F.SilkS")
+		(uuid "bec1a0af-51cf-4c1c-b8f3-480ff07e9c47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "Designed in Budapest"
 		(at 85.657932 95.6 0)
 		(layer "F.SilkS")
@@ -21394,7 +21639,7 @@
 		)
 		(polygon
 			(pts
-				(xy 96.419432 76.679) (xy 96.439432 53) (xy 139.614432 58) (xy 139.619432 76.679)
+				(xy 96.419432 76.679) (xy 96.439432 53) (xy 139.614432 53.2) (xy 139.619432 76.679)
 			)
 		)
 	)

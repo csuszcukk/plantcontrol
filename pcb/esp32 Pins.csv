@@ -1,0 +1,13 @@
+PIN,Function,type
+3,humidity,ADC
+4,Light,ADC
+5,water level,
+6,soil temp,ADC
+7,DHT22,
+13,pump relay,D out
+14,LED mosfet,PWM
+18,dc,I2C
+19,sda,I2C
+20,scl,I2C
+21,rst,I2C
+22,cs,I2C

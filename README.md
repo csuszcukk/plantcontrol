@@ -31,3 +31,20 @@ make a smart pot for plants
 14. **Done!** Your plant controller is ready to go.
 
 > **Pro Tip:** On first boot (or if it cannot connect to a saved network), the device will host a Wi-Fi Access Point. Connect to it to enter your local Wi-Fi SSID and password via the captive portal. Don't forget to enter your ThingSpeak API key in the configuration file to enable telemetry logging!
+
+
+## How It Works
+
+PlantControl is an automated, ESP32-C6-powered plant monitoring and maintenance system running on custom MicroPython firmware. It continuously monitors environmental conditions and manages irrigation and lighting using asynchronous event loops.
+
+### Core Architecture
+
+* **Sensor Data Acquisition:** The system periodically samples soil moisture, ambient light, and air temperature/humidity levels. 
+* **Automated Logic & Safety:** If soil moisture drops below the predefined threshold, the MCU triggers a relay/MOSFET to activate the water pump. It includes safety timers to prevent over-watering or running the pump dry.
+* **Local UI & Status:** A circular GC9A01 SPI display provides real-time readout of plant metrics and device status directly on the enclosure.
+* **Power & Load Management:** High-side MOSFET switching ensures power is delivered efficiently to peripherals (pumps, LEDs) only when needed, minimizing idle power consumption.
+* **Connectivity & Telemetry:** Integrated Wi-Fi connects to local infrastructure to stream telemetry to ThingSpeak. If network connection fails, it automatically spins up a Wi-Fi Access Point with a captive portal for re-configuration.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

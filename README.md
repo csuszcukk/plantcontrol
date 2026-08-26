@@ -36,7 +36,7 @@ make a smart pot for plants
 ## How It Works
 
 PlantControl is an automated, ESP32-C6-powered plant monitoring and maintenance system running on custom MicroPython firmware. It continuously monitors environmental conditions and manages irrigation and lighting using asynchronous event loops.
-
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/csuszcukk/plantcontrol/tree/main/pcb/mainboard)
 ### Core Architecture
 
 * **Sensor Data Acquisition:** The system periodically samples soil moisture, ambient light, and air temperature/humidity levels. 

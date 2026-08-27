@@ -1,0 +1,6 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet","jlc part #"
+"J10","1","Screw_Terminal_01x04","","","","","${EXCLUDE_FROM_POS_FILES}","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal","","C90087"
+"R1","1","5,1k","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C177348"
+"R4","1","VT93xx","","","","","${EXCLUDE_FROM_POS_FILES}","OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical","http://www.produktinfo.conrad.com/datenblaetter/125000-149999/140375-da-01-en-FOTOWIDERSTAND__VT_93_N2__THT_.pdf","C10077"
+"R5","1","10k","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","","C2906982"
+"U3","1","AM2302","","","","","${EXCLUDE_FROM_POS_FILES}","Sensor:ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown","http://akizukidenshi.com/download/ds/aosong/AM2302.pdf","C83988"

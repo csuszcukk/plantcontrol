@@ -148,7 +148,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/sadmin/Documents/plant/pcb/gerbers/")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
@@ -3939,17 +3939,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "31b34589-b373-437f-9ce4-77c264d91f31")
-		)
-		(fp_text user "Keepout Area"
-			(at -0.01 -15.36 0)
-			(layer "Cmts.User")
-			(uuid "95ebba04-da40-4ced-9c0c-4c7a138cd7a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text user "Antenna"
 			(at 0 -7.675 0)

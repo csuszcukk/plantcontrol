@@ -1097,10 +1097,22 @@
 		)
 	)
 	(junction
+		(at 154.94 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d8446d4-f6b2-4792-9cb6-dd12f869eb46")
+	)
+	(junction
 		(at 165.1 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be0a0bde-dae4-4cc2-aa10-05ec790fa901")
+	)
+	(junction
+		(at 143.51 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca42dee2-c247-4618-83df-c16129597438")
 	)
 	(wire
 		(pts
@@ -1114,13 +1126,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 147.32 107.95)
+			(xy 123.19 107.95) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "606b843b-9c36-41d5-bf92-828b5fc0270a")
+	)
+	(wire
+		(pts
+			(xy 143.51 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63031ca6-c994-4d68-8646-16095bd1c5d3")
 	)
 	(wire
 		(pts
@@ -1134,6 +1156,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 123.19) (xy 143.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d284ba-f161-4083-88d6-6dbe61c2e845")
+	)
+	(wire
+		(pts
+			(xy 143.51 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fbfc88-aa80-422c-9c3e-33a36a897c71")
+	)
+	(wire
+		(pts
 			(xy 156.21 99.06) (xy 165.1 99.06)
 		)
 		(stroke
@@ -1144,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 147.32 123.19)
+			(xy 137.16 107.95) (xy 137.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1705,6 +1747,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "901d6e10-7341-4257-950f-eb995041a1fe")
+		(property "Reference" "R1"
+			(at 138.684 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5,1k"
+			(at 137.922 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 141.732 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3d42d0a-e528-40f1-b338-a3f8c41eb3f1")
+		)
+		(pin "1"
+			(uuid "21dd4f49-5ac5-40af-b7fe-a87c76233d74")
+		)
+		(instances
+			(project "air_and_light_sensor"
+				(path "/e38711c9-d65a-4585-9eaf-05baf53ac0c4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 118.11 107.95 180)
 		(unit 1)
@@ -1815,6 +1938,7 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 154.94 130.81 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1822,7 +1946,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96bb51ff-c6e3-4ab1-b7a8-bb1ba13b3915")
 		(property "Reference" "#PWR02"
 			(at 154.94 137.16 0)

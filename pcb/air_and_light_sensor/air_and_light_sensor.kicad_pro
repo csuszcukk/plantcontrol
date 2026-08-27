@@ -625,12 +625,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "jlc part #",
+          "name": "jlc part #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "amazon link",
+          "name": "amazon link",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -675,7 +699,7 @@
         "uuid": "e38711c9-d65a-4585-9eaf-05baf53ac0c4"
       }
     ],
-    "used_designators": "U3,R4-5,J10,#PWR1-3,#PWR23-28",
+    "used_designators": "U3,R1,R4-5,J10,#PWR1-3,#PWR23-28",
     "variants": []
   },
   "sheets": [

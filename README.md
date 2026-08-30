@@ -45,6 +45,13 @@ PlantControl is an automated, ESP32-C6-powered plant monitoring and maintenance 
 * **Power & Load Management:** High-side MOSFET switching ensures power is delivered efficiently to peripherals (pumps, LEDs) only when needed, minimizing idle power consumption.
 * **Connectivity & Telemetry:** Integrated Wi-Fi connects to local infrastructure to stream telemetry to ThingSpeak. If network connection fails, it automatically spins up a Wi-Fi Access Point with a captive portal for re-configuration.
 
+## Component Sourcing & Logistics
+
+To avoid high international shipping fees, customs delays, and unnecessary import duties, all components in the Bill of Materials (BOM) are sourced from a local EU distributor (**HESTORE**). 
+
+- All prices in the BOM have been converted from HUF to USD using current exchange rates.
+- Sourcing locally ensures faster delivery times and more efficient budget utilization for the project.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -23,7 +23,6 @@ J2,1,Screw_Terminal_01x04,,,,,,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS
 D1,1,1N4001,,,,,,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88503/1n4001.pdf,C2456,
 "C2,C4,C6",3,100nF,,,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,C1591,
 "C1,C3,C5",3,10uF,,,,,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,,C216288,
-~,1,,,,,,,humidity sensor,~,~,https://www.amazon.com/Geekstory-Capacitive-Detection-Corrosion-Resistant/dp/B0DMF2BZC6/ref=sr_1_29?
 ~,1,,,,,,,small circle spi sreen,~,~,https://www.amazon.com/Screen-Display-240x240-Interface-Arduino/dp/B0GR44PSBL/132-4224079-3597343
 ~,1,,,,,,,water sensor,~,~,https://www.amazon.com/Ximimark-Sensor-Horizontal-Switch-Arduino/dp/B0B7WPBPBC
 ~,1,,,,,,,power suply for the led,~,~,https://www.amazon.com/dp/B0781JC2WK?_encoding=UTF8&psc=1

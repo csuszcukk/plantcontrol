@@ -47,10 +47,12 @@ PlantControl is an automated, ESP32-C6-powered plant monitoring and maintenance 
 
 ## Component Sourcing & Logistics
 
-To avoid high international shipping fees, customs delays, and unnecessary import duties, all components in the Bill of Materials (BOM) are sourced from a local EU distributor (**HESTORE**). 
+To optimize the project budget and lead times, a hybrid sourcing strategy is used:
 
-- All prices in the BOM have been converted from HUF to USD using current exchange rates.
-- Sourcing locally ensures faster delivery times and more efficient budget utilization for the project.
+- **LCSC:** Used for standard SMD components, passives, ICs, and microcontrollers to take advantage of low bulk pricing.
+- **HESTORE (EU Local Distributor):** Used for specific sensors, modules, and components unavailable on LCSC or needed quickly.
+
+All BOM prices from HESTORE have been converted from HUF to USD using current market exchange rates.
 
 ## License
 

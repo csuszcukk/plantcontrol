@@ -1,9 +1,12 @@
-from machine import Pin, I2C, ADC, PWM
+from machine import Pin, SPI, ADC, PWM
 import uasyncio as asyncio
 import wifimanager
 import dht
 import urequests
 import json
+import gc9a01
+import gc9a01
+import vga1_8x16 as font 
 
 wlan = wifimanager.get_connection()
 
@@ -15,13 +18,78 @@ headers = {'Content-Type': 'application/json'}
 
 # ThingSpeak kötelező api_key mezővel
 payload = {
-    "api_key": "IDE_IRAD_A_THINGSPEAK_WRITE_API_KEYEDET",
+    "api_key": "Type the API key here",
     "field1": 0.0,
     "field2": 0.0,
     "field3": 0.0,
     "field4": 0.0
 }
 
+# --- GC9A01 Inicializálás ---
+# SPI busz inicializálása a rajz szerinti lábakkal (sck=IO20, mosi=IO19)
+spi = SPI(1, baudrate=60000000, sck=Pin(20), mosi=Pin(19))
+
+# Kijelző inicializálása
+display = gc9a01.GC9A01(
+    spi,
+    dc=Pin(18, Pin.OUT),
+    cs=Pin(22, Pin.OUT),
+    reset=Pin(21, Pin.OUT),
+    rotation=0
+)
+
+def draw_bar(display, x, y, w, h, percentage, color):
+    """ Progress bar kirajzolása """
+    percentage = max(0, min(100, percentage))
+    
+    # 1. Keret
+    display.hline(x, y, w, color)
+    display.hline(x, y + h - 1, w, color)
+    display.vline(x, y, h, color)
+    display.vline(x + w - 1, y, h, color)
+    
+    # 2. Háttér ürítése feketére
+    display.fill_rect(x + 1, y + 1, w - 2, h - 2, gc9a01.BLACK)
+    
+    # 3. Érték kitöltése
+    fill_w = int((w - 2) * (percentage / 100))
+    if fill_w > 0:
+        display.fill_rect(x + 1, y + 1, fill_w, h - 2, color)
+
+async def update_display():
+    while True:
+        try:
+            temp = payload.get('field1', 0.0)
+            hum = payload.get('field2', 0.0)
+            soil_m = payload.get('field3', 0)
+
+            # Százalékos értékek kiszámítása
+            temp_pct = int((temp / 50.0) * 100)
+            hum_pct = int(hum)
+            soil_pct = int((soil_m / 65535) * 100)
+
+            # Kijelző törlése
+            display.fill(gc9a01.BLACK)
+
+            # Fejléc
+            display.text(font, "PLANT MONITOR", 60, 25, gc9a01.WHITE, gc9a01.BLACK)
+
+            # --- Hőmérséklet ---
+            display.text(font, f"Temp: {temp:.1f}C", 40, 60, gc9a01.GREEN, gc9a01.BLACK)
+            draw_bar(display, 40, 80, 160, 12, temp_pct, gc9a01.GREEN)
+
+            # --- Páratartalom ---
+            display.text(font, f"Humi: {hum:.1f}%", 40, 105, gc9a01.BLUE, gc9a01.BLACK)
+            draw_bar(display, 40, 125, 160, 12, hum_pct, gc9a01.BLUE)
+
+            # --- Talajnedvesség ---
+            display.text(font, f"Soil: {soil_m}", 40, 150, gc9a01.YELLOW, gc9a01.BLACK)
+            draw_bar(display, 40, 170, 160, 12, soil_pct, gc9a01.YELLOW)
+
+        except Exception as e:
+            print("Error updating display:", e)
+
+        await asyncio.sleep(2)
 async def read_dht_sensor():
     dht_sensor = dht.DHT22(Pin(7)) # Ha a rajz szerint van: Pin(3)
     while True:
